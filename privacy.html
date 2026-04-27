@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy — Hospital Mania: Hidden Object</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=Outfit:wght@500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #e6f0f5;
+            --strip: #ffffff;
+            --ink: #123240;
+            --sub: #3d5c6e;
+            --teal: #0d9488;
+            --border: rgba(13, 148, 136, 0.2);
+        }
+
+        body {
+            font-family: 'DM Sans', system-ui, sans-serif;
+            color: var(--sub);
+            background: var(--bg);
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+
+        .header-band {
+            background: linear-gradient(180deg, #0d9488 0%, #0f766e 100%);
+            color: #e0f2f1;
+            padding: 32px 22px 36px;
+            text-align: center;
+        }
+
+        .header-band h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: clamp(1.4rem, 3.5vw, 1.75rem);
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-band .sub {
+            font-size: 0.9rem;
+            margin-top: 8px;
+            opacity: 0.92;
+        }
+
+        .wrap {
+            max-width: 640px;
+            margin: -24px auto 0;
+            padding: 0 20px 48px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .doc {
+            background: var(--strip);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 16px 40px rgba(18, 50, 64, 0.1);
+            padding: 28px 24px 32px;
+        }
+
+        .meta-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px 20px;
+            font-size: 0.82rem;
+            color: var(--sub);
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgba(13, 148, 136, 0.12);
+        }
+
+        .meta-bar span {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .meta-bar strong {
+            color: var(--ink);
+        }
+
+        section {
+            margin-bottom: 28px;
+        }
+
+        section:last-of-type {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--teal);
+            margin-bottom: 12px;
+        }
+
+        p + p {
+            margin-top: 10px;
+        }
+
+        p strong, li strong {
+            color: var(--ink);
+        }
+
+        .summary-box {
+            background: linear-gradient(135deg, rgba(13, 148, 136, 0.08) 0%, rgba(56, 189, 248, 0.06) 100%);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px 18px;
+            margin: 14px 0;
+            font-size: 0.98rem;
+        }
+
+        ol {
+            margin: 12px 0 0 0;
+            padding-left: 1.25rem;
+        }
+
+        ol li {
+            margin-bottom: 8px;
+        }
+
+        .back {
+            margin-top: 28px;
+            text-align: center;
+        }
+
+        .back a {
+            display: inline-block;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            color: var(--teal);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .back a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-band">
+        <h1>Privacy information</h1>
+        <p class="sub">Hospital Mania: Hidden Object (App Store)</p>
+    </header>
+    <div class="wrap">
+        <div class="doc">
+            <div class="meta-bar">
+                <span><strong>Document type:</strong> in-game privacy summary</span>
+                <span><strong>Effective date:</strong> April 15, 2026</span>
+            </div>
+
+            <section>
+                <h2>Plain-language promise</h2>
+                <p>The App Store product page for this app states that the developer <strong>does not collect data from the app for tracking or analytics in the way described in Apple’s “Data Not Collected” label</strong>. This page explains what that means for everyday use and what still depends on your device, Apple, and ad networks (when ads are shown), without collecting contact details or running a “support website” from this file.</p>
+            </section>
+
+            <div class="summary-box">
+                <strong>At a glance:</strong> the game is built around local play and store distribution. The developer’s current store disclosure is “Data Not Collected” from the app. Use Apple’s on-device and App Store privacy tools for anything beyond what you read here.
+            </div>
+
+            <section>
+                <h2>What stays on your device</h2>
+                <p>Like other puzzle and hidden-object titles, the app may use <strong>on-device storage</strong> to remember progress, level unlocks, preferences (such as sound or language where applicable), and similar gameplay state. That data ordinarily remains under the user’s control on the iPhone, iPad, or compatible device, subject to the user’s backup and restore choices.</p>
+            </section>
+
+            <section>
+                <h2>Apple, the App Store, and your account</h2>
+                <p>Downloading, updating, and paying (if you ever use in-app items that Apple processes) go through <strong>Apple’s systems</strong>. Apple handles the Apple ID, receipts, Family Sharing, parental tools, and platform privacy settings. Those are governed by Apple’s own policies, not this summary.</p>
+            </section>
+
+            <section>
+                <h2>Advertising and third parties</h2>
+                <p>The app is listed as <strong>containing advertising</strong>. Ad content and any advertising-related data flows are generally subject to the policies of <strong>ad partners and the platform</strong> (for example, Apple’s ad-related and tracking settings you control in Settings and in the store). This document does not name individual ad networks; refer to the current app build and your device’s privacy settings for the most accurate picture.</p>
+            </section>
+
+            <section>
+                <h2>Game Center</h2>
+                <p>Where <strong>Game Center</strong> and leaderboards are used, those features are provided by <strong>Apple’s Game Center service</strong> and only apply if you are signed in and the feature is enabled. Activity there follows Apple’s Game Center and account terms, not a separate data collection story described in this file.</p>
+            </section>
+
+            <section>
+                <h2>Children and age rating</h2>
+                <p>The app is rated for <strong>4+</strong> on the store. Parents and guardians should use Apple’s <strong>Screen Time</strong> and related controls to manage who installs and uses apps on a shared device, which is a device-level matter rather than something this static page can configure.</p>
+            </section>
+
+            <section>
+                <h2>Changes to this text</h2>
+                <p>Gameplay features, store metadata, and Apple’s privacy label for the app <strong>can change with updates</strong>. When this summary is edited, the effective date above will be updated. For the most authoritative, machine-readable view of data practices, <strong>check the “App Privacy” section on the app’s App Store product page</strong> for the version you have installed—because it is tied to the build Apple reviews.</p>
+            </section>
+
+            <section>
+                <h2>Quick reference</h2>
+                <ol>
+                    <li>Store disclosure: <strong>no developer data collection</strong> as currently labeled for this app on the product page.</li>
+                    <li>Gameplay state: mostly <strong>on-device</strong> unless the user or system syncs it elsewhere (e.g. backup).</li>
+                    <li>Store, account, optional Game Center, and ad-related options: <strong>Apple and platform tools</strong>.</li>
+                </ol>
+            </section>
+
+            <p class="back"><a href="index.html">Back to game overview</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
